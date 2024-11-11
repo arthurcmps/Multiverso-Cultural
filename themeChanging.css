@@ -1,0 +1,23 @@
+.dark {
+    background-color: var(--gray);
+    color: var(--off-white);
+}
+.darker {
+    background-color: var(--gray-dark);
+    color: var(--off-white);
+}
+.lightdefault {
+    background-color: var(--white);
+    color: var(--text-color);
+}
+.lightspecial {
+    background-color: var(--white);
+    color: var(--text-color);
+}
+/* .acessibilidadeTheme,.categoriaTheme {
+    background-color:var(--red) ;
+
+}
+.principalTheme {
+    background-color: var(--blue);
+} */

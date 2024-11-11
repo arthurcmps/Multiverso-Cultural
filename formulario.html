@@ -1,0 +1,16 @@
+<form action="#" id="formulario">
+    <input type="text" name="usuario">
+    <input type="password" name="senha">
+    <input type="submit" value="Entrar na conta">
+</form>
+<script>
+    let formulario = document.getElementById('formulario')
+
+    formulario.addEventListener('submit',function(e){
+        console.log(
+            formulario.usuario.value,
+            formulario.senha.value
+        )
+    })
+</script>
+

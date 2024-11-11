@@ -1,0 +1,63 @@
+:root {
+	/* --txt-clr: #939292;
+	--bg-clr: #232323;
+	--bgdrk-clr: #030202;
+	--util-clr: #5f5f5e;
+	--bg-color: #fff;
+	--txt-color: #000;
+	--bg-color2: #fff;
+	--txt-color2: #000;
+
+	--header-light-color:red;
+	 
+	--white: #fff;*/
+	 --txt-size: 1rem;
+	--big-txt: 2rem; 
+
+	 --gray-dark:#222831;
+	 --gray:#31363f;
+	 --white:#FAF9F6;
+	 --off-white:#EEEEEE;
+	 --text-color:#000;
+
+	 --red:red;
+	 --blue:blue;
+
+
+}
+@font-face {
+	font-family: "DM sans";
+	src: url(./assets/fonts/DM_Sans/static/DMSans-Regular.ttf);
+}
+@font-face {
+	font-family: "Nunito sans";
+	src: url(./assets/fonts/Nunito_Sans/static/NunitoSans_10pt-Regular.ttf);
+}
+/* Cores que sao usadas na troca de tema */
+
+/* 
+    bgdark:"#31363f",
+    bgdarker :"#222831",
+    txtfordark:"#FAF9F6",
+    txtdordarker:"#EEEEEE" 
+    */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/* line-height: 1rem; */
+}
+body {
+
+	font-family: "Nunito sans", "DM sans", sans-serif, arial;
+	/* font-size: var(--txt-size); */
+	/* line-height: var(--txt-size); */
+}
+body button {
+	border: none;
+	background-color: transparent;
+}
+/* h1 {
+    font-size: var(--big-txt);
+    line-height: var(--big-txt);
+} */

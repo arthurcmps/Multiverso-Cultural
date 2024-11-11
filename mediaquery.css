@@ -1,0 +1,29 @@
+@media screen and (max-width: 720px), handheld and (min-width: 430px) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  footer form input[type="text"] {
+    min-width: 100%;
+  }
+  footer form input[type="submit"] {
+    min-width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 1080px), handheld and (min-width: 1080px) {
+    .content-container article .card {
+        flex-direction: column;
+    }
+    .content-container article .card > div {
+        padding: 0;
+        margin:0.5rem 0;
+    }
+    .content-container article .card > span {
+      max-height: 216px;
+      max-width: 384px;
+      min-width:0px;
+     
+    }
+}

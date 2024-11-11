@@ -1,0 +1,69 @@
+/* header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+} */
+.teatro-page {
+    .container {
+        width: 100%;
+        margin: 20px auto;
+    }
+	.movies {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+       
+	}
+	.movie {
+		background-color: #222831;
+		border: 1px solid #ddd;
+		border-radius: 5px;
+		margin: 10px;
+		width: 30%;
+		box-shadow: 2px 4px 8px rgba(155, 155, 155, 0.521),
+			inset 2px 2px 4px 2px rgba(54, 54, 54, 0.877);
+		position: relative;
+	}
+	.movie img {
+		width: 100%;
+		aspect-ratio: 16/9;
+		object-fit: cover;
+		border-bottom: 1px solid #ddd;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+	.movie h3 {
+		margin: 10px;
+		text-align: center;
+	}
+	.movie p {
+		padding: 0 10px 10px;
+	}
+
+	.movie button {
+		background-color: #d18904;
+		color: #fff;
+		border: none;
+		padding: 10px 20px;
+		font-size: 16px;
+		cursor: pointer;
+		border-radius: 5px;
+		width: 150px;
+		height: 50px;
+		margin: 10px;
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		transform: translateX(-50%);
+		cursor: pointer;
+	}
+
+	.movie button:hover {
+		background-color: #eb0808;
+	}
+
+	h2{
+		margin-left: 25px;
+	}
+}

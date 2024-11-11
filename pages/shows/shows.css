@@ -1,0 +1,33 @@
+.AnaCanas img {
+    display: block;
+    width: 50vw;
+    /* padding:60cm;
+    border:80cm; */
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+
+.shows-container h3, .shows-container h2 {
+    text-decoration:aliceblue; 
+   
+}
+
+.shows-container h1 {
+    text-align: center;
+}
+
+
+.shows-container .info {
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+
+}
+.shows-container .banner {
+    /* background-color: grey; */
+    border:  1px solid black    ;
+}
+.shows-container .banner img {
+    width: 50%;
+    max-height: none; 
+}
